@@ -7,7 +7,7 @@ const home = () => {
                 <h1>Home</h1>
                 {/* <FontAwesomeIcon icon="fa-solid fa-dog" /> */}
 
-                <div className='filmContainer'>
+                {/* <div className='filmContainer'>
 
                     <div className="filmStrip">
 
@@ -72,7 +72,7 @@ const home = () => {
 
                     </div>
                 </div>
-
+ */}
 
             </div>
         </Page>

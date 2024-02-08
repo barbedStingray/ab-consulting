@@ -1,6 +1,8 @@
 import { useRouter } from 'next/router';
 import { motion as m, AnimatePresence } from 'framer-motion';
 import './global.css';
+import Image from 'next/image';
+import dogPic from '../public/Dog.png';
 
 const App = ({ Component, pageProps }) => {
     const router = useRouter();
@@ -22,7 +24,13 @@ const App = ({ Component, pageProps }) => {
                     exit={{ scaleY: 1 }}
                     transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
                 >
-                    <img src='/dog.png' className='dogdiv' />
+                    <Image
+                        src={dogPic}
+                        alt="Cute Dog"
+                        className='dogdiv'
+                        width={500}
+                    />
+                    {/* <img src='/dog.png' className='dogdiv' /> */}
                 </m.div>
                 <m.div
                     className='slide-out'
@@ -31,7 +39,14 @@ const App = ({ Component, pageProps }) => {
                     exit={{ scaleY: 0 }}
                     transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
                 >
-                    <img src='/dog.png' className='dogdiv'/>
+
+                    <Image
+                        src={dogPic}
+                        alt="Cute Dog"
+                        className='dogdiv'
+                        width={500}
+                    />
+                    {/* <img src='/dog.png' className='dogdiv' /> */}
                 </m.div>
             </m.div>
         </AnimatePresence>

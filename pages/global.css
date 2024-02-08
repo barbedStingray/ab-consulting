@@ -40,18 +40,15 @@ body {
 
 
 
-.filmContainer {
+/* .filmContainer {
     border: 2px solid red;
     overflow: hidden;
     width: 300px;
-    /* height: 300px; */
 }
 
 .filmStrip {
-    /* border: 2px solid red; */
     width: 150px;
     height: 500px;
-    /* transform: rotate(5deg); */
     margin: 5%;
     display: flex;
     flex-direction: row;
@@ -62,32 +59,27 @@ body {
     background-color: rgb(32, 32, 33);
 }
 .filmHoles {
-    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     gap: 10px;
 
 }
 .filmHoles div {
-    /* border: 1px solid black; */
     height: 12px;
     width: 12px;
     background-color: white;
     box-shadow: inset 0px 0px 2px 0px #5c5c5c;
 }
 .filmSlides {
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 .filmSlides div {
-    /* border: 2px solid orange; */
     height: 75px;
     width: 95px;
     box-shadow: inset 0px 0px 10px 0px #b7410e;
-
-}
+} */
 
 
 
